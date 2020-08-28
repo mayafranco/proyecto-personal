@@ -1,0 +1,65 @@
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__box{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 300px;
+  width: 300px;
+  height: auto;
+  border-radius: 4px;
+  background-color: #fff;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  transition: all .4s ease;
+
+}
+
+.card__img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border: 6px solid #ddd;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  padding: 20px;
+	background-image: url(https://source.unsplash.com/random);
+  background-size: cover;
+  background-position: center center;
+}
+
+.img__header{
+  font-size: 24px;
+  line-height: 48px;
+
+}
+
+.img__text{
+  font-family: popins;
+  padding-top: 20px;
+
+}
+
+
+.img__text p{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px; 
+}
+
+.card__box:hover{
+  background-color: #e84393;
+  color: #fff;
+  cursor: pointer;
+  transform: translateY(-3px);
+}
