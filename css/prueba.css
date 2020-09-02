@@ -139,8 +139,8 @@ footer {
   width: 40px; }
 
 #logo img {
-  width: 180px;
-  height: 180px;
+  width: 130px;
+  height: 130px;
   margin-left: 20px; }
 
 .home {
@@ -173,3 +173,6 @@ footer {
 .menu a.active {
   background-color: #4CAF50;
   color: white; }
+
+.container {
+  margin-top: 5%; }
