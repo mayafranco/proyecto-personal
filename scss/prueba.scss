@@ -14,13 +14,6 @@ background: $fondo;
 }
 
 
-h1, {
-
-	font-family: popins;
-	color: #242424;
-	margin: 20px;
-
-}
 
 h2, h3 {
 
@@ -39,51 +32,6 @@ ul li {
 
 }
 
-
-th {
-	font-family: popins;
-	color: #242424
-
-}
-
-td {
-
-	font-family: popins;
-	color: #FFFFFF;
-}
-
-
-footer {
-
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	padding: 20px;
-	margin-top: 50px;
-
-}
-
-/*animación*/
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-   
-
-
-.grisOscuro {
-
-	color: #242424;
-
-}
 
 
 
@@ -185,6 +133,75 @@ footer {
 
 }
 
+/*menu*/
+
+
+nav {
+
+	border: 1px solid #f0f0f0;
+
+}
+
+
+a.navbar-brand {
+
+  margin-left: 7%;
+ 
+}
+
+
+
+.menu {
+
+  overflow: hidden;
+  background-color: #FFFFFF;
+  justify-content: flex-end;
+  font-family: popins;
+
+}
+
+.menu__button {
+
+  float: left;
+  color: #000000;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 13px;
+} 
+
+
+.menu a:hover {
+
+background-color: #f0f0f0;
+
+}
+
+
+
+.container {
+
+margin-top: 5%;
+
+
+}
+
+
+
+footer {
+  width: 100%;
+  background-color: #333333;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 15%;
+  
+}
+
+
+
+
+/* menú antiguo
+
 .menu {
 
   overflow: hidden;
@@ -219,12 +236,34 @@ color: white;
 
 }
 
-.container {
+*/
 
-margin-top: 5%;
 
+
+
+
+/*footer con animación
+footer {
+
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	padding: 20px;
+	margin-top: 50px;
 
 }
 
 
-
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+   
+*/
