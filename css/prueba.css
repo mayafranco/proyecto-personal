@@ -69,13 +69,8 @@ ul li {
 #contenido {
   margin: 20px; }
 
-.about_me {
-  font-family: popins;
-  color: #515152;
-  font-size: 16px;
-  line-height: 28px;
-  border: 1px solid #f0f0f0;
-  padding: 20px; }
+.about_me__foto img {
+  margin-left: 25%; }
 
 .contacto {
   font-family: popins;
@@ -99,9 +94,6 @@ ul li {
   line-height: 40px;
   margin: 20px;
   padding: 20px; }
-
-.about_me__foto {
-  width: 50px; }
 
 #instagram a img {
   width: 40px; }
