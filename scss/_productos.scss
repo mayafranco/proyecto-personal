@@ -3,6 +3,9 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  flex-direction: row !important;
+  border: 0px solid rgba(0, 0, 0, 0.125)!important;
+  padding-top: 80px;
 }
 
 .card__box{
@@ -58,7 +61,7 @@
 }
 
 .card__box:hover{
-  background-color: #e84393;
+  background-color: #333333;
   color: #fff;
   cursor: pointer;
   transform: translateY(-3px);
